@@ -1,0 +1,128 @@
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.container__inner {
+  max-width: calc(1310px - 40px);
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #234ab8;
+  margin-top: 30px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.breadcrumbs ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.breadcrumbs ul li:last-child a {
+  padding-right: 0;
+}
+.breadcrumbs ul li:last-child a:after {
+  content: "";
+}
+
+.breadcrumb {
+  color: #b9b9b9;
+  padding-right: 20px;
+  border-bottom: 2px solid #b9b9b9;
+}
+.breadcrumb:hover {
+  color: #333;
+}
+.breadcrumb:after {
+  content: ">";
+  right: -10px;
+  position: relative;
+}
+
+.insteadphoto {
+  background-color: #d3f0ff;
+  background-image: url("../img/newFile/man.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.managers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.manager {
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.manager__img {
+  width: 210px;
+  height: 210px;
+  border: none;
+  border-radius: 50%;
+}
+.manager__position {
+  max-width: 255px;
+  margin-top: 0;
+}
+.manager__name {
+  color: #1c99d9;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.managers-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.managers-list__item {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 40px;
+  margin-top: 50px;
+}
+.managers-list__item__img {
+  width: 131px;
+  height: 131px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 20px;
+  flex: 0 0 131px;
+}
+.managers-list__item__position {
+  max-width: 255px;
+}
+
+.managers-list__item_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: start;
+}
+
+/*# sourceMappingURL=newStyle.css.map */

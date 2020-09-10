@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f95cae07-e589-4de5-bb9c-30009e39c996" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1hJZY7Z32M7OJYuxUFMjCWgLlXO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/loposm/components/managers-list" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\yarikfelk\frontend\loposm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\yarikfelk\frontend\loposm\components\managers-list" />
+      <recent name="F:\yarikfelk\frontend\loposm\templates\site" />
+      <recent name="F:\yarikfelk\frontend" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f95cae07-e589-4de5-bb9c-30009e39c996" name="Default Changelist" comment="" />
+      <created>1599731200417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599731200417</updated>
+      <workItem from="1599731201559" duration="3519000" />
+      <workItem from="1599741726470" duration="11052000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="487" y="0" key="#PHP" timestamp="1599742169435">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="487" y="0" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1599742169435" />
+    <state x="436" y="190" key="EditFileWatcherDialog" timestamp="1599731312391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="436" y="190" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1599731312391" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599749665964">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599749665964" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1599731315375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599731315375" />
+    <state x="480" y="129" width="576" height="566" key="find.popup" timestamp="1599748365810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="480" y="129" width="576" height="566" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1599748365810" />
+  </component>
+</project>

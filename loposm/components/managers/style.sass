@@ -1,0 +1,25 @@
+.managers
+  @include flexRow
+  justify-content: space-between
+  align-items: start
+
+.manager
+  width: 33.3%
+  @include flexColumn
+  text-align: center
+
+  &__img
+    width: 210px
+    height: 210px
+    border: none
+    border-radius: 50%
+
+  &__position
+    max-width: 255px
+    margin-top: 0
+
+
+  &__name
+    color: $mainColor
+    font-weight: 700
+    margin-bottom: 12px

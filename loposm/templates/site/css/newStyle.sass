@@ -1,0 +1,67 @@
+$mainColor: #1c99d9
+$mainDarkerColor: #234ab8
+
+@mixin flexColumn
+  display: flex
+  flex-direction: column
+  align-items: center
+
+@mixin flexRow
+  display: flex
+  flex-direction: row
+  align-items: center
+
+li
+  list-style-type: none
+
+ul
+  padding: 0
+
+.container__inner
+  max-width: calc(1310px - 40px)
+  margin: 0 auto
+
+
+h1
+  font-size: 27px
+  font-weight: 700
+  text-transform: uppercase
+  color: $mainDarkerColor
+  margin-top: 30px
+
+img
+  width: 100%
+  height: auto
+  object-fit: cover
+
+.breadcrumbs ul
+  @include flexRow
+
+  & li:last-child a
+    padding-right: 0
+
+    &:after
+      content: ''
+
+
+.breadcrumb
+  color: #b9b9b9
+  padding-right: 20px
+  border-bottom: 2px solid #b9b9b9
+
+  &:hover
+    color: #333
+
+  &:after
+    content: '>'
+    right: -10px
+    position: relative
+
+.insteadphoto
+  background-color: #d3f0ff
+  background-image: url("../img/newFile/man.png")
+  background-repeat: no-repeat
+  background-position: center
+
+@import "../../../components/managers/style"
+@import "../../../components/managers-list/style"

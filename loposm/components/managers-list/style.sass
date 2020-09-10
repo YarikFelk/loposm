@@ -1,0 +1,26 @@
+.managers-list
+  @include flexRow
+  justify-content: space-between
+  flex-wrap: wrap
+  margin-bottom: 50px
+
+.managers-list__item
+  width: 50%
+  @include flexRow
+  padding-right: 40px
+  margin-top: 50px
+
+  &__img
+    width: 131px
+    height: 131px
+    border: none
+    border-radius: 50%
+    margin-right: 20px
+    flex: 0 0 131px
+
+  &__position
+    max-width: 255px
+
+.managers-list__item_text
+  @include flexColumn
+  align-items: start

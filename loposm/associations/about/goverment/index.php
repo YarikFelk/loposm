@@ -1,4 +1,5 @@
 <?php
+
 include "../../../templates/site/header.php" ?>
 
     <section>
@@ -8,7 +9,9 @@ include "../../../templates/site/header.php" ?>
         </div>
     </section>
 
-    <?php include "../../../components/managers/template.php"?>
-    <?php include "../../../components/managers-list/template.php"?>
+    <?php
+include "../../../components/managers/template.php" ?>
+    <?php
+include "../../../components/managers-list/template.php" ?>
 <?php
 include "../../../templates/site/footer.php" ?>

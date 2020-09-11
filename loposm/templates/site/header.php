@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>"Профессиональная ассоциация специалистов сестринского дела"</title>
+    <link rel="stylesheet" href="/frontend/loposm/templates/site/css/fontawesome/css/all.css">
     <link rel="stylesheet" href="/frontend/loposm/templates/site/vendor/css/slick.css">
+    <link rel="stylesheet" href="/frontend/loposm/templates/site/vendor/css/jquery.fancybox.min.css">
+
     <link rel="stylesheet" href="/frontend/loposm/templates/site/css/style.css">
     <link rel="stylesheet" href="/frontend/loposm/templates/site/css/newStyle.css">
 </head>
@@ -71,7 +74,7 @@
     <!-- block slider end  -->
     <!-- Menu  -->
     <nav class="header__nav">
-        <div class="container__inner header__nav-container">
+        <div class="container header__nav-container">
             <ul class="header__main-menu">
                 <li class="header__main-menu-item header__main-menu-item--parent">
                     <a class="header__main-menu-link header__main-menu-link--parent" href="#">Ассоциация</a>

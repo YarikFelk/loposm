@@ -1,6 +1,6 @@
 .managers
   @include flexRow
-  justify-content: space-between
+  justify-content: space-around
   align-items: start
 
 .manager
@@ -23,3 +23,7 @@
     color: $mainColor
     font-weight: 700
     margin-bottom: 12px
+
+@media (max-width: 567px)
+  .manager
+    width: 100%

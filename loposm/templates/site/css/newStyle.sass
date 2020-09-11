@@ -1,5 +1,6 @@
 $mainColor: #1c99d9
 $mainDarkerColor: #234ab8
+$mainLighterColor: #9fe1fa
 
 @mixin flexColumn
   display: flex
@@ -11,16 +12,14 @@ $mainDarkerColor: #234ab8
   flex-direction: row
   align-items: center
 
+p
+  font-size: 1em
+
 li
   list-style-type: none
 
 ul
   padding: 0
-
-.container__inner
-  max-width: calc(1310px - 40px)
-  margin: 0 auto
-
 
 h1
   font-size: 27px
@@ -33,6 +32,14 @@ img
   width: 100%
   height: auto
   object-fit: cover
+
+ol li
+  list-style-type: decimal
+
+.container__inner
+  max-width: calc(1310px - 40px)
+  margin: 0 auto
+
 
 .breadcrumbs ul
   @include flexRow
@@ -63,5 +70,71 @@ img
   background-repeat: no-repeat
   background-position: center
 
+.pulse
+  position: fixed
+  top: 50%
+  right: 30px
+  @include flexColumn
+  width: 80px
+  height: 80px
+  background-color: $mainColor
+  border-radius: 50%
+  animation: radial-pulse 2s infinite
+
+  & div
+    width: 100%
+    height: 100%
+    padding: 10px
+    background-size: contain
+    background: url("../img/newFile/mail.png") no-repeat center
+
+@keyframes radial-pulse
+  0%
+    box-shadow: 0 0 0 0 $mainLighterColor
+  75%
+    box-shadow: 0 0 0 0 $mainLighterColor
+  100%
+    box-shadow: 0 0 0 20px $mainLighterColor
+
+
+
+@media (max-width: 1310px)
+  .container__inner
+    width: 96%
+
+@media (max-width: 991px)
+  .container__inner
+    width: 100%
+    max-width: 100%
+    padding-right: 15px
+    padding-left: 15px
+
+@media (max-width: 767px)
+
+  .container__inner
+    padding-right: 10px
+    padding-left: 10px
+
+  .pulse
+    width: 60px
+    height: 60px
+    left: 75%
+
+    & div
+      margin: 10px
+      padding: 0
+      background-size: contain
+
+@media (max-width: 567px)
+  body
+    font-size: 13px
+
+.footer__social-link svg
+  fill: #0d95e8
+
+
+
 @import "../../../components/managers/style"
 @import "../../../components/managers-list/style"
+@import "../../../components/provision/style"
+@import "stylePages"

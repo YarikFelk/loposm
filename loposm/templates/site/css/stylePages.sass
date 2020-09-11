@@ -1,0 +1,76 @@
+.historyAssoc
+  margin-bottom: 40px
+
+  & p
+    font-size: 19.8px
+    line-height: 28px
+
+  & span
+    margin-left: 20px
+    margin-right: 10px
+
+.strategyAssoc
+  margin-bottom: 40px
+  font-size: 19.8px
+  line-height: 28px
+
+  & h4
+    text-align: center
+    font-size: 24px
+    font-weight: 700
+    margin-bottom: 5px
+
+  & h5
+    font-size: 1em
+    font-weight: 700
+
+  & h6
+    font-weight: 700
+    text-align: center
+    font-size: 1em
+    max-width: 800px
+    margin: 0 auto
+
+  & .list__circle
+    display: block
+    margin-left: 40px
+    margin-bottom: 5px
+    position: relative
+
+    &:before
+      content: '●'
+      position: absolute
+      left: -20px
+
+
+.strategyAssoc__right-block
+  margin-left: auto
+  max-width: 270px
+  text-align: right
+
+ol li
+  padding-left: 10px
+  margin-bottom: 5px
+
+
+
+@media (max-width: 767px)
+  .historyAssoc p
+    font-size: 1rem
+
+  .strategyAssoc p
+    font-size: 1rem
+
+  .strategyAssoc ol
+    padding-left: 10px
+    & li
+      font-size: 1rem
+      padding-left: 0
+
+  .strategyAssoc .list__circle
+    margin-left: 0
+
+    &:before
+      position: relative
+      left: 0
+

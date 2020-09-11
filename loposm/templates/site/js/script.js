@@ -155,4 +155,19 @@ $(window).on('load resize', function () {
   } else {
     partnersSlider.removeClass('index-partners__slider--all-visible');
   };
+
+  setEqualHeight($('.index-partners__item'))
 });
+
+function setEqualHeight(columns) {
+  var tallestcolumn = 0;
+  columns.each(
+      function () {
+        currentHeight = $(this).height();
+        if (currentHeight > tallestcolumn) {
+          tallestcolumn = currentHeight;
+        }
+      }
+  );
+  columns.height(tallestcolumn);
+}

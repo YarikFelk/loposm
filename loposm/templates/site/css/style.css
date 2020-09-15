@@ -411,6 +411,7 @@ a {
   margin-right: 10px;
   width: 96px;
   height: 86px;
+  object-fit: contain;
 }
 
 .header__site-title {

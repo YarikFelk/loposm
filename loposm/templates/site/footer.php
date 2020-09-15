@@ -43,12 +43,12 @@
     <!--    mail sign end-->
 
 
-<script src="/frontend/loposm/templates/site/vendor/js/jquery-3.4.1.min.js"></script>
-<script src="/frontend/loposm/templates/site/vendor/js/slick.min.js"></script>
-<script src="/frontend/loposm/templates/site/vendor/js/jquery.fancybox.min.js"></script>
-<script src="/frontend/loposm/templates/site/vendor/js/focus-within-polyfill.min.js"></script>
+<script src="/loposm/templates/site/vendor/js/jquery-3.4.1.min.js"></script>
+<script src="/loposm/templates/site/vendor/js/slick.min.js"></script>
+<script src="/loposm/templates/site/vendor/js/jquery.fancybox.min.js"></script>
+<script src="/loposm/templates/site/vendor/js/focus-within-polyfill.min.js"></script>
 
-<script src="/frontend/loposm/templates/site/js/script.js"></script>
+<script src="/loposm/templates/site/js/script.js"></script>
 
 </body>
 </html>

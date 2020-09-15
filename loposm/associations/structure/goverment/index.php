@@ -11,21 +11,18 @@ $documents = [
 
 <?php
 $managers = [
-    [ 'img' =>'/frontend/loposm/templates/site/img/newFile/manager2.png',
+    [ 'img' =>'/loposm/templates/site/img/newFile/manager2.png',
         'name' => 'Глазкова Татьяна Васильевна',
-        'position' => 'Президент ассоциации
-            Руководитель специализированных секций
-            «Сестринское дело в стоматологии»,
-            «Сестринское дело во фтизиатрии»'],
+        'position' => 'Президент'],
 ]
 ?>
 
 <?php
 $managers_list = [
-    [ 'img' => '/frontend/loposm/templates/site/img/newFile/manager1.png',
+    [ 'img' => '/loposm/templates/site/img/newFile/manager1.png',
         'name' => 'Коренева Татьяна Борисовна',
         'position' =>    'Исполнительный директор РООЛО “ПАССД”'],
-    [ 'img' =>'/frontend/loposm/templates/site/img/newFile/manager2.png',
+    [ 'img' =>'/loposm/templates/site/img/newFile/manager2.png',
         'name' => 'Глазкова Татьяна Васильевна',
         'position' => 'Президент ассоциации
             Руководитель специализированных секций

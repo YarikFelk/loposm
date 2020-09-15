@@ -4,7 +4,7 @@
   align-items: start
 
 .manager
-  width: 33.3%
+  max-width: 50%
   @include flexColumn
   text-align: center
 
@@ -15,7 +15,7 @@
     border-radius: 50%
 
   &__position
-    max-width: 255px
+    //max-width: 255px
     margin-top: 0
 
 
@@ -23,6 +23,18 @@
     color: $mainColor
     font-weight: 700
     margin-bottom: 12px
+
+  &__phone
+    margin: 0
+
+    &_title
+      font-weight: bold
+
+  &__email
+    margin: 0
+
+    &_title
+      font-weight: bold
 
 @media (max-width: 567px)
   .manager

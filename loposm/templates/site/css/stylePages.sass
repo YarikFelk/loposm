@@ -52,6 +52,94 @@ ol li
   padding-left: 10px
   margin-bottom: 5px
 
+.main-img
+  margin-bottom: 75px
+
+.join
+  margin-bottom: 50px
+
+.join p
+  font-size: 19.8px
+  line-height: 27px
+
+.join_motivation
+  @include flexRow
+  justify-content: center
+  font-weight: 700
+  color: #ed1c24
+  margin: 50px auto
+
+  & div
+    font-family: MyriadPro, serif
+    font-size: 159.8px
+    line-height: 217px
+    letter-spacing: -0.12em
+    margin-right: 40px
+
+  & p
+    font-size: 25.2px
+    line-height: 34px
+    margin: 0 0 15px
+
+.join__opportunities
+  margin: 0 50px
+  padding-left: 160px
+  background-position: top left
+  background-repeat: no-repeat
+
+  & h5
+    font-size: 19.9px
+    line-height: 27px
+    text-transform: uppercase
+    color: #086fba
+    font-weight: 400
+    margin-bottom: 40px
+
+  & ul li
+    @include flexRow
+    max-width: 920px
+    margin-bottom: 50px
+    padding-left: 20px
+    position: relative
+    font-size: 19.8px
+    line-height: 27px
+
+    &:before
+      content: ''
+      width: 4px
+      height: 56px
+      background: $mainDarkerColor
+      position: absolute
+      left: 0
+      top: 50%
+      transform: translateY(-50%)
+
+    &:after
+      content: ''
+      height: 100%
+      min-height: 56px
+
+.join h4
+  font-size: 28.8px
+  line-height: 38px
+  text-align: center
+  font-weight: 400
+
+.opportunities-right
+  background-image: url("../img/newFile/right.png")
+
+.opportunities-development
+  background-image: url("../img/newFile/development.png")
+
+.opportunities-fluence
+  background-image: url("../img/newFile/fluence.png")
+
+.join-responsibility p
+  font-weight: bold
+
+.join-responsibility ul li
+  font-size: 19.8px
+  line-height: 27px
 
 
 @media (max-width: 767px)
@@ -73,4 +161,30 @@ ol li
     &:before
       position: relative
       left: 0
+
+  .join p
+    font-size: 1rem
+
+  .join__opportunities
+    padding-left: 0
+    margin: 0
+    background: none
+
+
+@media (max-width: 567px)
+  .join_motivation div
+    font-size: 80px
+    margin-right: 17px
+    margin-left: -20px
+    line-height: 1
+
+  .join_motivation p
+    font-size: 13px
+    line-height: 26px
+
+  .join-responsibility ul li
+    font-size: 1rem
+
+  .join h4
+    font-size: 1.5rem
 

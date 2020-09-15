@@ -11,7 +11,7 @@ $documents = [
 
 <?php
 $managers = [
-    [ 'img' =>'/frontend/loposm/templates/site/img/newFile/efimova_ev.png',
+    [ 'img' =>'/loposm/templates/site/img/newFile/efimova_ev.png',
         'name' => 'Ефимова Екатерина Васильевна',
         'position' => 'Старшая медицинская сестра ГБУЗ ЛОКБ'],
 ]

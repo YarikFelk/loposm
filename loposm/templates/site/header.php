@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>"Профессиональная ассоциация специалистов сестринского дела"</title>
-    <link rel="stylesheet" href="/frontend/loposm/templates/site/css/fontawesome/css/all.css">
-    <link rel="stylesheet" href="/frontend/loposm/templates/site/vendor/css/slick.css">
-    <link rel="stylesheet" href="/frontend/loposm/templates/site/vendor/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="/loposm/templates/site/css/fontawesome/css/all.css">
+    <link rel="stylesheet" href="/loposm/templates/site/vendor/css/slick.css">
+    <link rel="stylesheet" href="/loposm/templates/site/vendor/css/jquery.fancybox.min.css">
 
-    <link rel="stylesheet" href="/frontend/loposm/templates/site/css/style.css">
-    <link rel="stylesheet" href="/frontend/loposm/templates/site/css/newStyle.css">
+    <link rel="stylesheet" href="/loposm/templates/site/css/style.css">
+    <link rel="stylesheet" href="/loposm/templates/site/css/newStyle.css">
 </head>
 <body>
 
@@ -19,7 +19,7 @@
         <div class="container header__top-container">
             <div class="header__logo-block">
                 <a class="header__logo-link" href="/" aria-label="Вернуться на главную">
-                    <img class="header__logo" src="/frontend/loposm/templates/site/img/logo-header.svg"  alt="Логотип Профессиональной ассоциации специалистов сестинского дела">
+                    <img class="header__logo" src="/loposm/templates/site/img/logo-header.svg"  alt="Логотип Профессиональной ассоциации специалистов сестинского дела">
                 </a>
                 <h1 class="header__site-title">
                     <span class="header__site-title header__site-title--small">Региональная общественная организация ленинградской области</span>

@@ -3,12 +3,14 @@
   justify-content: space-between
   flex-wrap: wrap
   margin: 0 -20px 50px
+  padding: 0 50px
 
 .managers-list__item
-  width: 50%
+  width: 46%
   @include flexRow
   padding: 0 20px
   margin-top: 50px
+
 
   &__img
     width: 131px
@@ -26,5 +28,8 @@
   align-items: start
 
 @media (max-width: 880px)
+  .managers-list
+    padding: 0
+
   .managers-list__item
     width: 100%

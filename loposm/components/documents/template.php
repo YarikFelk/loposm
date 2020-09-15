@@ -9,11 +9,12 @@
                     <img src="<?=$document['img']?>"
                          alt="" />
                     <?php if ($document['text-image']):?>
-                        <?php if (strlen($document['text']) > 30) {
-                            $textSmaller = true;
-                        }?>
-                        <p class="document_img--on-text provisions-size
-                            <?= $textSmaller ? 'text-smaller' : ''?>">
+<!--                        --><?php //if (strlen($document['text']) > 30) {
+//                            $textSmaller = true;
+//                        }?>
+                        <p class="document_img--on-text
+                            <?= $textSmaller ? 'text-smaller' : ''?>"
+                        >
                                 <?=$document['text']?>
                         </p>
                     <?php endif;?>

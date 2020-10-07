@@ -8,7 +8,7 @@
                     <img src="<?=$manager['img']?>" alt="<?=$manager['name']?>">
                 </div>
 
-                <p class="manager__name"><?=$manager['name']?></p>
+                <p class="manager__name manager__main"><?=$manager['name']?></p>
                 <p class="manager__position"><?=$manager['position']?></p>
                 <?php if($manager['phone']) :?>
                     <p class="manager__phone">

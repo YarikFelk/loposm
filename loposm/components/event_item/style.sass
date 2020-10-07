@@ -1,0 +1,71 @@
+.event__item
+  @include flexRow
+  margin-bottom: 25px
+
+  & a
+    color: #086fba
+    transition: opacity 100ms
+
+    &:hover
+      opacity: 0.7
+
+.event__item_img
+  width: 208px
+  height: 100%
+  margin-right: 35px
+
+  & img
+    height: 100%
+    width: auto
+
+.event__item_text
+  @include flexColumn
+  align-items: flex-start
+  margin-right: 50px
+
+.event__item_add
+  @include flexRow
+  width: 100%
+  justify-content: space-between
+
+.event__item_date
+  font-size: 13.5px
+  line-height: 19px
+  color: #737373
+  position: relative
+  left: 50%
+  transform: translateX(-50%)
+
+.read-more
+  text-decoration: underline
+  margin-right: 20px
+
+  &:hover
+    text-decoration: none
+
+@media (max-width: 991px)
+  .event__item_text
+    margin-right: 0
+
+  .event__item_date
+    left: 0
+    transform: initial
+
+@media (max-width: 568px)
+  .event__item_title
+    margin-top: 10px
+
+  .event__item
+    flex-direction: column
+
+  .event__item_img
+    width: 100%
+    height: auto
+    margin-right: 0
+
+    & img
+      height: auto
+      width: 100%
+
+
+

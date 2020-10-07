@@ -32,13 +32,11 @@ $documents = [
     <div class="container__inner">
         <a href="../../../templates/site/img/newFile/struktura_upravleniya.png"
            data-fancybox data-caption="Структура управления">
-            <img src="../../../templates/site/img/newFile/struktura_upravleniya.png"/>
+            <img class="management-structure__img" src="../../../templates/site/img/newFile/struktura_upravleniya.png"/>
         </a>
 
     </div>
 
-
-<?php include "../../../components/provision/template.php" ?>
-
+    <?php include "../../../components/provision/template.php" ?>
 <?php
 include "../../../templates/site/footer.php" ?>

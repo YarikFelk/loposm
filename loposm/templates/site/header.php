@@ -199,8 +199,8 @@
                 <li class="header__main-menu-item">
                     <a class="header__main-menu-link" href="#">Членство</a>
                 </li>
-                <li class="header__main-menu-item">
-                    <a class="header__main-menu-link" href="#">Важно</a>
+                <li  class="header__main-menu-item">
+                    <a style="background-color: red"  class="header__main-menu-link" href="#">Важно</a>
                 </li>
             </ul>
             <button class="header__mobile-menu-toggle">
